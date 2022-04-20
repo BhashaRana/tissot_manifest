@@ -20,7 +20,7 @@
         <remove-project name="android_hardware_qcom_audio" />        
         <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" remote="pxl" clone-depth="1" />
         <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" remote="pxl" clone-depth="1" />
-        <project path="bionic" name="crdroidandroid/android_bionic" remote="cr" revision="12.1" clone-depth="1" />
+        <project path="bionic" name="android_bionic" remote="cr" revision="12.1" clone-depth="1" />
         
         <remote name="los" fetch="https://github.com/LineageOS" />
         <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-18.1-caf-msm8996" />
