@@ -16,8 +16,7 @@
         <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="Lafactorial" revision="12" clone-depth="1" />
         <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot-1" remote="Lafactorial" revision="snow" clone-depth="1" />
 
-        <remote name="neon" fetch="https://github.com/aospneon" />
-        <project path="hardware/qcom-caf/msm8996/display" name="msm8996-Hals" revision="display" remote="neon" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/display" name="msm8996_display" revision="12.1" remote="Lafactorial" clone-depth="1" />
         <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" revision="twelve" remote="pxl" clone-depth="1" />
 		
        <project path="prebuilts/clang/host/linux-x86/clang-latest" name="android_prebuilts_clang_host_linux-x86_clang-r416183d" remote="Lafactorial" revision="11.0" clone-depth="1" />		
