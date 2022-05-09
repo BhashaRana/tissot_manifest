@@ -12,8 +12,8 @@
 		
         <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="test" clone-depth="1" />
         <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="Lafactorial" revision="new" clone-depth="1" />
-        <project path="vendor/xiaomi/tissot" name="vendor_tissot" remote="Lafactorial" revision="tissot" clone-depth="1" />
-        <project path="vendor/xiaomi/msm8953-common" name="vendor_tissot" remote="Lafactorial" revision="common" clone-depth="1" />
+        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi" remote="Lafactorial" revision="12.0-tissot" clone-depth="1" />
+        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi" remote="Lafactorial" revision="12.0-common" clone-depth="1" />
         <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="Lafactorial" revision="twelve" clone-depth="1" />
 		
         <project path="hardware/qcom-caf/msm8996/display" name="msm8996_display" revision="12.1" remote="Lafactorial" clone-depth="1" />
