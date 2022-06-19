@@ -13,7 +13,7 @@
         <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="Lafactorial" revision="CRL" clone-depth="1" />
         <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="Lafactorial" revision="12" clone-depth="1" />
         <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="Lafactorial" revision="12.1" clone-depth="1" />
-	<project path="kernel/xiaomi/msm8953" name="Cakeby_Kernel_Tissot" remote="Lafactorial" revision="Cakeby" clone-depth="1" />
+	<project path="kernel/xiaomi/msm8953" name="Cakeby_Kernel_Tissot" remote="Lafactorial" revision="12.1" clone-depth="1" />
 
         <project path="hardware/qcom-caf/msm8996/display" name="msm8996_display" revision="12.1" remote="Lafactorial" clone-depth="1" />
         <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" remote="pxl" clone-depth="1" />
