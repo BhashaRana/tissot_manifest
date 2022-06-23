@@ -4,11 +4,14 @@
         <remote name="Lafactorial"
                 fetch="https://github.com/Lafactorial" />
 
+        <remote name="Cake"
+                fetch="https://github.com/Anothermi1" />
+
 
         <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="test" clone-depth="1" />
         <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="Lafactorial" revision="lineage-19.1" clone-depth="1" />
         <project path="vendor/xiaomi/tissot" name="vendor_tissot" remote="Lafactorial" revision="lineage" clone-depth="1" />
         <project path="vendor/xiaomi/msm8953-common" name="vendor_common" remote="Lafactorial" revision="lineage" clone-depth="1" />
-	<project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot-1" remote="Lafactorial" revision="snow" clone-depth="1" />
+	<project path="kernel/xiaomi/msm8953" name="Cakeby_Kernel_Tissot" remote="Cake" revision="Cakeby" clone-depth="1" />
 
 </manifest>
