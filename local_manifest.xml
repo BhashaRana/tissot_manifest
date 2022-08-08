@@ -9,7 +9,6 @@
 	
         <remote name="los" fetch="https://github.com/LineageOS" />
 	
-        <remove-project name="RiceDroid/android_packages_apps_RiceDroidSettings" />
 	<remove-project name="RiceDroid/android_packages_apps_Launcher3" />
 
         <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="rice" clone-depth="1" />
@@ -18,7 +17,6 @@
         <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="Lafactorial" revision="lineage" clone-depth="1" />
 	<project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot-neon" remote="Lafactorial" revision="twelve" clone-depth="1" />
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-19.1" clone-depth="1" />
-	<project path="packages/apps/crDroidSettings" name="android_packages_apps_RiceDroidSettings" remote="Lafactorial" revision="twelve" clone-depth="1" />
 	<project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="Lafactorial" revision="twelve" clone-depth="1" />
 	
 </manifest>
