@@ -21,5 +21,6 @@
 	<project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="Lafactorial" revision="twelve" clone-depth="1" />
 	<project path="packages/apps/crDroidSettings" name="android_packages_apps_RiceDroidSettings" remote="Lafactorial" revision="twelve" clone-depth="1" />
 	<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="Lafactorial" revision="twelve" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="Lafactorial" revision="master" clone-depth="1" />
 
 </manifest>
