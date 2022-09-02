@@ -15,9 +15,6 @@
 	<remote name="arw"
                 fetch="https://gitlab.com/arrowos-project" />
 	
-	<remote name="gabuters"
-                fetch="https://github.com/Gabuters-Dev" />
-	
 	<remove-project name="RiceDroid/android_packages_apps_Launcher3" />
 	<remove-project name="RiceDroid/android_packages_apps_RiceDroidSettings" />
 	<remove-project name="RiceDroid/android_packages_apps_Settings" />
@@ -30,7 +27,7 @@
 	<project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="Lafactorial" revision="twelve" clone-depth="1" />
 	<project path="packages/apps/crDroidSettings" name="android_packages_apps_RiceDroidSettings" remote="Lafactorial" revision="twelve" clone-depth="1" />
 	<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="Lafactorial" revision="twelve" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/gabuters-clang" name="gabuters-clang" remote="gabuters" revision="clang-15" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="Lafactorial" revision="master" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />
         <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arw" revision="master" />
 
