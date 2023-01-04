@@ -10,9 +10,17 @@
 
         <remove-project name="hardware_qcom_wlan" />
         <remove-project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
+        <remove-project name="hardware_qcom_display" />
+        <remove-project name="hardware_qcom_audio" />
+        <remove-project name="hardware_qcom_media" />
         <project path="hardware/qcom-caf/wlan" name="Lafactorial/android_hardware_qcom_wlan" remote="rem" revision="lineage-20.0-caf" clone-depth="1" />
         <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-20" />
         <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="rem" revision="lineage-20.0-legacy-um" />
+        <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" remote="rem" revision="lineage-20.0-caf-msm8996" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" remote="rem" revision="lineage-20.0-caf-msm8996" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" remote="rem" revision="lineage-20.0-caf-msm8996" clone-depth="1" />
+
+
 
         <project path="device/xiaomi/tissot" name="Lafactorial/android_device_xiaomi_tissot" remote="rem" revision="xt" clone-depth="1" />
         <project path="device/xiaomi/msm8953-common" name="Lafactorial/device_xiaomi_msm8953-common" remote="rem" revision="cherishnofm" clone-depth="1" />
